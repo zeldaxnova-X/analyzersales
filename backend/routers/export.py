@@ -7,7 +7,7 @@ import numpy as np
 import os
 import tempfile
 from store import data_store
-from api.analysis import FilterParams
+from routers.analysis import FilterParams
 
 router = APIRouter()
 

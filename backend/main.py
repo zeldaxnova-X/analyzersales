@@ -1,8 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from api.upload import router as upload_router
-from api.analysis import router as analysis_router
-from api.export import router as export_router
+from routers.upload import router as upload_router
+from routers.analysis import router as analysis_router
+from routers.export import router as export_router
 
 app = FastAPI(title="Sales Data Analyzer API")
 
