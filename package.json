@@ -1,0 +1,8 @@
+{
+  "name": "analyzersales",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "install": "echo 'Vercel installs dependencies automatically, but we do it in build script'"
+  }
+}
